@@ -17,4 +17,4 @@ print(result)
 # python3 Extended_GCD.py
 # gcd = 1 / u = 10245, v = -8404
 
-# gcd = 1 일 때, modular inverse를 구하는데 
+# gcd = 1 일 때, modular inverse를 구하는데 사용됨.
