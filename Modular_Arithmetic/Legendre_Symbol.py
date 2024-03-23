@@ -4,8 +4,10 @@ ints = [250818412046959044758940829741920077186429318110403245431821300888042390
 
 for i in ints :
 	if (pow(i, (p-1)//2, p) == 1) :
-		print(i, 'is qr')
-		print(pow(i, (p+1)//4, p))
+		print('quadratic residue : ', i)
+		print('squre root : ', pow(i, (p+1)//4, p))
+  
+  
   
 # 오일러 판정법?
 # Tonelli-Shanks algorithm (p = 3 mod 4가 아닐 때...)

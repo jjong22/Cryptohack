@@ -10,11 +10,9 @@ flag = key1 ^ key2 ^ key3 ^ d
 
 flag = hex(flag)
 
-print(flag)
+bytes_flag = bytes.fromhex(flag[2:])
+result = bytes_flag.decode('utf-8')
 
-# bytes_flag = bytes.fromhex(flag)
-# result = bytes_flag.decode('utf-8')
-
-# 약간의 형 오류
+print(result)
 
 # >> crypto{x0r_i5_ass0c1at1v3}
